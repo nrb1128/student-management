@@ -21,8 +21,10 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: 17
-        distribution: jdkfile
-        jdkFile: ${{ runner.temp }}/jdk-17_linux-x64_bin.tar.gz
+        distribution: temurin
+        java-package: 'jdk'
+        architecture: 'x64'
+        check-latest: false
 
     - name: Cache Maven dependencies
       uses: actions/cache@v2
