@@ -1,0 +1,3 @@
+com\practice\studentmanagement\student_management\StudentManagementApplicationTests.class
+com\practice\studentmanagement\student_management\unit_test\service\UserServiceUnitTests.class
+com\practice\studentmanagement\student_management\integration_test\controller\UserControllerTests.class
