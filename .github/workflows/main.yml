@@ -38,7 +38,7 @@ jobs:
       run: mvn clean install
 
     - name: Run Unit Tests
-      run: mvn test
+      run: mvn clean test
 
     - name: Run Integration Tests
       run: mvn verify -DskipTests=false
