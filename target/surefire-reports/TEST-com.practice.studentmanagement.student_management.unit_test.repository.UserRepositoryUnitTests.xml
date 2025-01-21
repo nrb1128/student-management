@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.practice.studentmanagement.student_management.StudentManagementApplicationTests" time="0.737" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.practice.studentmanagement.student_management.unit_test.repository.UserRepositoryUnitTests" time="0.789" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="surefire.printSummary" value="true"/>
     <property name="java.specification.version" value="17"/>
@@ -65,5 +65,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="contextLoads" classname="com.practice.studentmanagement.student_management.StudentManagementApplicationTests" time="0.004"/>
+  <testcase name="addStudent" classname="com.practice.studentmanagement.student_management.unit_test.repository.UserRepositoryUnitTests" time="0.412"/>
 </testsuite>
