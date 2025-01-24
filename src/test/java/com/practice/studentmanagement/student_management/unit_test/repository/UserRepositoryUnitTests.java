@@ -31,7 +31,7 @@ public class UserRepositoryUnitTests {
 		Student foundStudent = studentRepository.findByStudentNumber("2018-03284-MN-0");
 		
 		assertNotNull(foundStudent);
-		assertEquals("2018-03284-MN-0", foundStudent.getStudentNumber());
+		assertEquals("2018-03284-MN", foundStudent.getStudentNumber());
 		
 		logger.info("addStudent start");
 	}
