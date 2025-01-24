@@ -3,6 +3,7 @@ package com.practice.studentmanagement.student_management.unit_test.repository;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,6 +20,7 @@ public class UserRepositoryUnitTests {
 	@Autowired
 	private StudentRepository studentRepository;
 	
+	@DisplayName("Add Student Repository Unit Test")
 	@Test
 	public void addStudent() {
 		logger.info("addStudent start");

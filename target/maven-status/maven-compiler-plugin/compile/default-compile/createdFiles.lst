@@ -1,8 +1,0 @@
-com\practice\studentmanagement\student_management\repository\UserRepository.class
-com\practice\studentmanagement\student_management\repository\StudentRepository.class
-com\practice\studentmanagement\student_management\controller\UserController.class
-com\practice\studentmanagement\student_management\service\UserService.class
-com\practice\studentmanagement\student_management\StudentManagementApplication.class
-com\practice\studentmanagement\student_management\entity\Student.class
-com\practice\studentmanagement\student_management\serviceImpl\UserServiceImpl.class
-com\practice\studentmanagement\student_management\entity\Users.class
